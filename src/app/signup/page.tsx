@@ -41,7 +41,7 @@ export default function Signup() {
         setError(profileError.message);
       } else {
         setSuccess('Signup successful! Check your email to verify your account.');
-        router.push('/login');
+        router.push('/signin');
       }
     }
 
