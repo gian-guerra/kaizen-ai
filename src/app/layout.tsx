@@ -1,7 +1,7 @@
 import "@/app/globals.css"
 import AuthHandler from "@/components/auth-handler"
 import { Inter } from "next/font/google"
-import type React from "react" // Import React
+import type React from "react"
 
 const inter = Inter({ subsets: ["latin"] })
 
